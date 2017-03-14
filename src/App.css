@@ -20,6 +20,7 @@
 body {
   font-family: 'cooper_hewittbook', sans-serif;
   font-size: 15px;
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 400px) {
@@ -42,10 +43,12 @@ footer div img {
   max-width: 300px;
 }
 
+p {
+  max-width: 500px;
+}
 
 .App {
   padding: .5em;
-  max-width: 500px;
   color: #212121;
 }
 
@@ -104,4 +107,11 @@ span {
 
 span {
   color: gold;
+}
+
+
+@media (min-width:800px) {
+  h2, section, footer {
+    padding-left: 335px;
+  }
 }
