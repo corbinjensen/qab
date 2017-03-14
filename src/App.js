@@ -43,6 +43,8 @@ class App extends Component {
 
           <p>Share with friends</p>
 
+          <p>Contact the organizers</p>
+
         </section>
 
           <footer>
