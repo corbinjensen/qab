@@ -19,7 +19,19 @@
 
 body {
   font-family: 'cooper_hewittbook', sans-serif;
-  font-size: 22px;
+  font-size: 15px;
+}
+
+@media (min-width: 400px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 20px;
+  }
 }
 
 footer div {
@@ -32,9 +44,15 @@ footer div img {
 
 
 .App {
-  padding: 1em;
+  padding: .5em;
   max-width: 500px;
   color: #212121;
+}
+
+@media (min-width:400px) {
+  .App {
+    padding: 1em;
+  }
 }
 
 h1,h2,h3,h4,h5 {
@@ -47,9 +65,33 @@ h3 {
 
 h1 {
   margin: 0;
-  font-size: 4em;
+  font-size: 4rem;
   line-height: .975;
 }
+
+@media (min-width:350px) {
+  h1 {
+    font-size: 5.8rem;
+  }
+
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+@media (min-width:350px) {
+
+  h2 {
+    font-size: 2.6rem;
+  }
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+
 
 span {
   animation: span-spin infinite 20s linear;
