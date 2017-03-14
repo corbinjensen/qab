@@ -1,0 +1,36 @@
+body {
+  font-size: 22px;
+}
+
+footer div {
+  padding-bottom: 1em;
+}
+
+footer div img {
+  max-width: 300px;
+}
+
+
+.App {
+  padding: 1em;
+  max-width: 500px;
+  color: #212121;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: .9;
+}
+
+span {
+  animation: span-spin infinite 20s linear;
+  height: 80px;
+}
+
+.intro {
+  line-height: 1.3;
+}
+
+span {
+  color: gold;
+}
