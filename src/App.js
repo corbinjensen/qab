@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Header from './cmp/Header.js'
 import Intro from './cmp/Intro.js'
+import NextEvent from './cmp/NextEvent.js'
 import Connect from './cmp/Connect.js'
 import Footer from './cmp/Footer.js'
 
@@ -15,6 +16,8 @@ class App extends Component {
         <Header />
 
         <Intro />
+
+        <NextEvent />
 
         <Connect />
 
