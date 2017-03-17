@@ -1,21 +1,6 @@
-@font-face {
-    font-family: 'cooper_hewittbold';
-    src: url('./assets/font/webfontkit/cooperhewitt-bold-webfont.woff2') format('woff2'),
-         url('./assets/font/webfontkit/cooperhewitt-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 
-@font-face {
-    font-family: 'cooper_hewittbook';
-    src: url('./assets/font/webfontkit/cooperhewitt-book-webfont.woff2') format('woff2'),
-         url('./assets/font/webfontkit/cooperhewitt-book-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
+@import "type";
 
 body {
   font-family: 'cooper_hewittbook', sans-serif;
@@ -95,8 +80,8 @@ h3 {
 }
 
 a {
-  color: #bfa100;
-  text-decoration: underline;
+  color: gold;
+  list-style: none;
 }
 
 

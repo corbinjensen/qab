@@ -1,4 +1,7 @@
 import React from 'react'
+import MdDateRange from 'react-icons/lib/md/date-range'
+import Mdshare from 'react-icons/lib/md/share'
+import MdMailOutline from 'react-icons/lib/md/mail-outline'
 
 class Connect extends React.Component {
   render(){
@@ -7,11 +10,23 @@ class Connect extends React.Component {
 
         <h3>Connect</h3>
 
-        <p><a href="#">Click here to mark your calender</a></p>
+        <a href="#">
 
-        <p><a href="#">Share with friends</a></p>
+          <p>
+            <MdDateRange/>
+            Click here to mark your calender
+          </p>
+        </a>
 
-        <p><a href="mailto:c@corbinjensen.ca">Contact the organizers</a></p>
+        <p><a href="#">
+          <Mdshare/>
+          Share with friends
+        </a></p>
+
+        <p><a href="mailto:c@corbinjensen.ca">
+          <MdMailOutline />
+          Contact the organizers
+        </a></p>
 
       </section>
     )

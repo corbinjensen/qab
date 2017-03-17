@@ -1,0 +1,5 @@
+
+.icon-quote:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e801'; } /* '' */
+.icon-export:before { content: '\e802'; } /* '' */
+.icon-calendar-plus-o:before { content: '\f271'; } /* '' */
