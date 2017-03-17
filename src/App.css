@@ -95,8 +95,16 @@ h3 {
 }
 
 a {
-  color: #bfa100;
+  color: darkslategray;
   text-decoration: underline;
+}
+
+a:hover {
+  color: #bfa100;
+}
+
+.connect svg {
+  padding-right: .75em;
 }
 
 
