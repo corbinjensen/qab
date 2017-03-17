@@ -103,6 +103,10 @@ a:hover {
   color: #bfa100;
 }
 
+.spanHeightOR {
+  height: 1.5em;
+}
+
 .connect svg {
   padding-right: .75em;
 }
