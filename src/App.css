@@ -35,11 +35,11 @@ body {
   }
 }
 
-footer div {
+.partners div {
   padding-bottom: 1em;
 }
 
-footer div img {
+.partners div img {
   max-width: 300px;
 }
 
@@ -133,6 +133,6 @@ span {
 
 @media (min-width:800px) {
   h2, section, footer {
-    padding-left: 335px;
+    padding-left: 22.33rem;
   }
 }

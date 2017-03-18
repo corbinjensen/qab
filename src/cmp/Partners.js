@@ -9,7 +9,7 @@ import HomeFront from '../img/HomeFront.png'
 class Partners extends React.Component {
   render(){
     return (
-          <div className="partners">
+          <section className="partners">
 
             <h3>Partners</h3>
 
@@ -20,6 +20,11 @@ class Partners extends React.Component {
                 <img src={chinookLogo} alt=""/>
 
               </a>
+
+              <p>
+                100% of your donation benefits queer youth, elders,
+                trans* folk, and the arts.
+              </p>
 
             </div>
 
@@ -45,27 +50,24 @@ class Partners extends React.Component {
 
             </div>
 
-            <h4>Community Partner</h4>
-
-            <div className="homeFront">
-
-              <a href="http://homefrontcalgary.com/" target="_blank">
-
-                <img src={HomeFront} alt=""/>
-
-              </a>
-
-
-                <p>
-                  Creating a safe community by <strong>eliminating domestic
-                  violence </strong>
-                  through direct client services, justice coordination
-                  and facilitated community action.
-                </p>
-
-
-
-            </div>
+            // <h4>Community Partner</h4>
+            //
+            // <div className="homeFront">
+            //
+            //   <a href="http://homefrontcalgary.com/" target="_blank">
+            //
+            //     <img src={HomeFront} alt=""/>
+            //
+            //   </a>
+            //
+            //     <p>
+            //       Creating a safe community by <strong>eliminating domestic
+            //       violence </strong>
+            //       through direct client services, justice coordination
+            //       and facilitated community action.
+            //     </p>
+            //
+            // </div>
 
 
             <h4>Venue</h4>
@@ -85,7 +87,7 @@ class Partners extends React.Component {
 
             </div>
 
-          </div>
+          </section>
     )
   }
 }
