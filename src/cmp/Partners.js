@@ -55,6 +55,16 @@ class Partners extends React.Component {
 
               </a>
 
+
+                <p>
+                  Creating a safe community by <strong>eliminating domestic
+                  violence </strong>
+                  through direct client services, justice coordination
+                  and facilitated community action.
+                </p>
+
+
+
             </div>
 
 
@@ -67,6 +77,11 @@ class Partners extends React.Component {
                 <img src={StillLogo} alt=""/>
 
               </a>
+
+              <p>
+                Located centrally by the Victoria Park / Stampede LRT.
+                Serving drinks and delicious, made from scratch cuisine.
+              </p>
 
             </div>
 
