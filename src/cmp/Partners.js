@@ -3,8 +3,8 @@ import React from 'react'
 import chinookLogo from '../img/Calgary_Chinook_Fund.png'
 import corbinLogo from '../img/corbinJensen.svg'
 import GuruLogo from '../img/cdn_gurus.png'
+import Alison from '../img/AlisonLang-Logo-Color.jpeg'
 import StillLogo from '../img/still.jpeg'
-import HomeFront from '../img/HomeFront.png'
 
 class Partners extends React.Component {
   render(){
@@ -21,10 +21,7 @@ class Partners extends React.Component {
 
               </a>
 
-              <p>
-                100% of your donation benefits queer youth, elders,
-                trans* folk, and the arts.
-              </p>
+
 
             </div>
 
@@ -50,24 +47,15 @@ class Partners extends React.Component {
 
             </div>
 
-            // <h4>Community Partner</h4>
-            //
-            // <div className="homeFront">
-            //
-            //   <a href="http://homefrontcalgary.com/" target="_blank">
-            //
-            //     <img src={HomeFront} alt=""/>
-            //
-            //   </a>
-            //
-            //     <p>
-            //       Creating a safe community by <strong>eliminating domestic
-            //       violence </strong>
-            //       through direct client services, justice coordination
-            //       and facilitated community action.
-            //     </p>
-            //
-            // </div>
+            <div className="allison">
+
+              <a href="http://www.remaxcentral.ab.ca/idx/realtors/alisonlang/" target="_blank">
+
+                <img src={Alison} alt=""/>
+
+              </a>
+
+            </div>
 
 
             <h4>Venue</h4>
